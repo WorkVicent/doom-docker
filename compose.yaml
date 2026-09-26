@@ -1,0 +1,6 @@
+services:
+  doom:
+    build: .
+    image: doom-browser
+    ports:
+      - "6080:6080"
